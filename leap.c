@@ -5,10 +5,10 @@ int n;
 scanf("%d",&n);
 if((n%4)==0)
 {
-    printf("Yes");
+    printf("yes");
 }
 else
 {
-    printf("No");
+    printf("no");
 }
 }
