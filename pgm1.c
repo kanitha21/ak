@@ -5,8 +5,6 @@ void main()
 int n;
 printf("Enter the number");
 scanf("%d",&n);
- if(isdigit(n))
-{
 if(n>0)
 {
 printf("Postive");
@@ -15,11 +13,10 @@ else if(n<0)
 {
 printf("Negative");
 }
-else
+else if(n==0)
 {
 printf("Zero");
 }
- }
  else
  {
  printf("Invalid");
