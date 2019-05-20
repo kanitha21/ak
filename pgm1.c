@@ -21,4 +21,4 @@ printf("Zero");
  printf("Invalid");
  }
  getch();
- }
+}
