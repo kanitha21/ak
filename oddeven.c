@@ -1,11 +1,10 @@
 #include<stdio.h>
 #include<conio.h>
-#include<ctype.h>
 void main()
 {
 int n;
 scanf("%d",&n);
-if(isdigit(n))
+if(n>0)
 {
 if(n/2)
 { 
