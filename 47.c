@@ -19,5 +19,5 @@ for(i=0;i<n-1;i++)
      }
  }
  }
-  printf("%d %d",a[0],a[1]);
+  printf("%d %d",a[0],a[n-1]);
 }
