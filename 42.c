@@ -6,7 +6,8 @@ void main()
    scanf("%s %s",&a,&b);
    m=strlen(a);
    n=strlen(b);
-  for(i=0;a[i]==b[i] && a[i]=='\0';i++);
+  for(i=0;a[i]==b[i] && a[i]=='\0';i++)
+  {
       if(a[i]>b[i])
       {
           for(i=0;i<m;i++)
@@ -29,5 +30,6 @@ void main()
               printf("%s",a[i]);
           }
           }
+  }
 }
    
