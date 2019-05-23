@@ -8,9 +8,12 @@ void main()
     {
         if(n==pow(2,i))
         {
-            p=++i;
+         p=++i;
             break;
         }
+        else 
+        {
+            break;
     }
     printf("%d",pow(2,p));
 }
