@@ -12,6 +12,10 @@ void main()
           count++;
       }
   }
+  if(m==0 || n==0)
+  {
+    count++;
+  }
   if(count!=0)
   {
       printf("yes");
