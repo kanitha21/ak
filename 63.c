@@ -1,19 +1,18 @@
 #include<stdio.h>
 void main()
 {
-    int n[10],i,min;
+    int a[n],i,min=0;
     for(i=0;i<10;i++)
     {
-        scanf("%d",n[i]);
+        scanf("%d",&a[i]);
     }
-     min=n[0];
-     for(i=0;i<10;i++)
-     {
-      if(min>n[i])
+   min=a[0];
+   for(i=1;i<10;i++)
+   {
+    if(min>a[i])
     {
-        min=n[i];
+        min=a[i];
     }
+   }
+    printf("%d",min);
 }
-printf("%d",min);
-}
- 
