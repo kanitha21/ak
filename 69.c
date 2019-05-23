@@ -13,4 +13,3 @@ void main()
               printf("odd");
           }
 }
-© 2019 GitHub, Inc.
