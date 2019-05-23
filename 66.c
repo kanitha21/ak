@@ -1,21 +1,23 @@
 #include<stdio.h>
-int main()
+void main()
 {
-     int n,i,count=0;
-     scanf("%d",&n);
-    for(i=2;i<n/2;i++)
+    int n,i,a=0;
+    scanf("%d",&n);
+    for(i=2;i<=n/2;i++)
     {
         if(n%i==0)
         {
-            count++;
+            a=1;
+            break;
         }
     }
-    if(count!=0)
+    if(a==1)
     {
-        printf("yes");
+        printf("no");
     }
-     else
-     {
-         printf("no");
-     }
+    else
+{
+    printf("yes");
+}
+}   
 }
