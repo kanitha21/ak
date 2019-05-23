@@ -8,7 +8,7 @@ void main()
   n=strlen(a);
   for(i=0;i<n;i++)
   {
-      if(isalnum(a[i]))
+      if(isalnum(a[i]) || a[i]=='_')
       {
           c++;
       }
