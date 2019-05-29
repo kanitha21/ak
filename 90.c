@@ -2,8 +2,8 @@
 #include<string.h>
 void main()
 {
-    char a[20],temp[20];
-    int i,len,j;
+    char a[20];
+    int i,len;
 gets(a);
 len=strlen(a);
 for(i=0;i<len;i++)
