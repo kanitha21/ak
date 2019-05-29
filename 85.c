@@ -12,6 +12,7 @@ void main()
    printf("%c",a[i]);
 }
 }
+    printf(" ");
 for(i=0;i<strlen(a);i++)
    {
        if(i%2!=0)
