@@ -2,19 +2,19 @@
 #include<string.h>
 void main()
 {
-    char a[20];
-    int i,len,temp,j;
+    char a[20],temp[20];
+    int i,len,j;
 gets(a);
 len=strlen(a);
-for(i=0i<len;i++)
+for(i=0;i<len;i++)
 {
-    for(j=i+1;j<len-1;j++)
+    for(j=i+1;j<len;j++)
     {
         if(a[i]>a[j])
         {
-            temp=a[i];
+            temp[i]=a[i];
             a[i]=a[j];
-            a[j]=temp;
+            a[j]=temp[i];
         }
     }
 }
